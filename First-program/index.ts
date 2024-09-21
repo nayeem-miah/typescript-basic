@@ -19,8 +19,8 @@ console.log(HerName );
 // function different of typescript and javascript
 
 // function javaScript
-function addNumber(num1, num2) {
-  console.log(num1 + num2);
+function addNumber(num3, num4) {
+  console.log(num3 + num4);
 }
 addNumber(12, "34"); // output 1234
 
