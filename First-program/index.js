@@ -1,13 +1,15 @@
 // how to run typescript program
 //tsc index.ts --> index.js --> node index.js
 // tsc index.ts --watch ---->running all time
+// with typescript
 var userName;
 userName = "Md Nayeem";
 console.log(userName);
-var HerName = "abdul hamid";
-console.log(HerName + userName);
 var num = 356;
 console.log(num);
+// without typescript
+var HerName = "abdul hamid";
+console.log(HerName);
 // function different of typescript and javascript
 // function javaScript
 function addNumber(num1, num2) {

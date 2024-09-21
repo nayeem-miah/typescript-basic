@@ -1,16 +1,20 @@
-// how to run typescript program
+// how to run typescript program ----compal
 //tsc index.ts --> index.js --> node index.js
 // tsc index.ts --watch ---->running all time
 
+// with typescript
 let userName: string;
 userName = "Md Nayeem";
 console.log(userName);
 
-let HerName = "abdul hamid";
-console.log(HerName + userName);
-
 let num: number = 356;
 console.log(num);
+
+// without typescript
+let HerName = "abdul hamid";
+console.log(HerName );
+
+
 
 // function different of typescript and javascript
 
