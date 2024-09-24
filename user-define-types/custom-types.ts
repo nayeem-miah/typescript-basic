@@ -44,12 +44,12 @@ users.push(user2);
 // console.log(users);
 
 // -----------------
-type RequestType = "GET" | "POST";
+type RequestTypes = "GET" | "POST";
 let getRequest: RequestType;
 getRequest = "GET";
 
 // function
-function requestHandler(requestType: RequestType) {
+function requestHandler(requestType: RequestTypes) {
   console.log(requestType);
 }
 requestHandler("POST")
