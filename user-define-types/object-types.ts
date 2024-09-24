@@ -28,27 +28,26 @@ student = [
 ];
 // console.log(student[0]);
 
-let users: object[];
+let allUsers: object[];
 
-users = [];
+allUsers = [];
 // let user1: { name: string; id?: number }; //optional chining --?
 let user1: { name: string; id: number };
 user1 = {
   name: "md kamal hossain",
   id: 123,
 };
-users.push(user1);
+allUsers.push(user1);
 
 let user2: { name: string; id: number };
 user2 = {
   name: "md Akash",
   id: 124,
 };
-users.push(user2);
+allUsers.push(user2);
 // console.log(users);
 
 // looping
-for(let user in users){
-    console.log(users[user]);
+for (let user in allUsers) {
+  console.log(allUsers[user]);
 }
-
