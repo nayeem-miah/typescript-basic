@@ -85,3 +85,37 @@ console.log(students);
 for (var student in students) {
     console.log(students[student]);
 }
+// two  numbers of biggest number (if else condition) normal
+var a = 10;
+var b = 12;
+if (a > b) {
+    console.log("a is biggest number");
+}
+else {
+    console.log("b is biggest numbers");
+}
+//  using function biggest numbers
+function biggestNumber(x, y) {
+    if (x > y) {
+        // console.log("x is biggest number:", x);
+        return x;
+    }
+    else {
+        // console.log("y is biggest numbers:", y);
+        return y;
+    }
+}
+console.log(biggestNumber(12, 34));
+var big = biggestNumber(43, 21);
+console.log("Biggest numbers is : ", big);
+// loopin even number 
+var loopinEvenNumber = function (i, su) {
+    if (su === void 0) { su = 0; }
+    for (var j = 0; j < i; j++) {
+        if (j % 2 == 0) {
+            su = j + su;
+        }
+    }
+    console.log("total numbers sum of :", su);
+};
+loopinEvenNumber(20);
